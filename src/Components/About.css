@@ -1,0 +1,16 @@
+.about_us {
+  margin: 10rem 0;
+}
+
+.about_us h2 {
+  font-size: 4rem;
+}
+
+.about_us h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.about_us p {
+  font-size: 2rem;
+}

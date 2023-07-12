@@ -1,0 +1,7 @@
+.btn-brand-primary {
+  background: var(--brand-white) !important;
+  color: var(--brand-black) !important;
+  font-size: 1.8rem !important;
+  padding: 10px 25px;
+  border: none !important;
+}

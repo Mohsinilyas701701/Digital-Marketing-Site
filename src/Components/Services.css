@@ -1,0 +1,11 @@
+.service h2 {
+  font-size: 4rem;
+}
+
+.service ul {
+  padding-left: 4rem;
+}
+
+.service ul li {
+  font-size: 1.8rem;
+}

@@ -1,0 +1,9 @@
+.navbar-nav {
+  background-color: var(--brand-primary);
+}
+
+.navbar-nav .navbar .nav-link {
+  font-size: 2rem;
+  margin: 0 2.4rem;
+  color: var(--brand-white);
+}
