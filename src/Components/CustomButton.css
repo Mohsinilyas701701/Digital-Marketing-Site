@@ -1,7 +1,12 @@
 .btn-brand-primary {
-  background: var(--brand-white) !important;
+  background: none !important;
   color: var(--brand-black) !important;
   font-size: 1.8rem !important;
-  padding: 10px 25px;
-  border: none !important;
+  padding: 5px 10px !important;
+  border: 1px solid var(--brand-black) !important;
+}
+
+.btn-brand-primary:hover {
+  background-color: var(--brand-black) !important;
+  color: var(--brand-white) !important;
 }

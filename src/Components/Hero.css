@@ -1,9 +1,6 @@
 .hero {
-  background-image: url("../assets/hero.png");
+  background-color: var(--brand-tertiary);
   height: calc(100vh - 80px);
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hero .hero_content {

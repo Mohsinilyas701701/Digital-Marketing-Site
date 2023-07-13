@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import CustomButton from "./CustomButton";
+import Offcanvas from "react-bootstrap/Offcanvas";
 import brandLogo from "../assets/logo.png";
 import "./CustomNavbar.css";
 
@@ -20,7 +21,7 @@ const CustomNavbar = () => {
             <Nav.Link href='#aboutus'>About Us</Nav.Link>
             <Nav.Link href='#aboutus'>Pricing</Nav.Link>
             <CustomButton buttonTitle='Sign In' />
-            <CustomButton buttonTitle='Sign Up' />
+            <CustomButton buttonTitle='Create an account' />
           </Nav>
         </Container>
       </Navbar>

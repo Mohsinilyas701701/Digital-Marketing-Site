@@ -7,9 +7,9 @@
 }
 
 :root {
-  --brand-primary: #000099;
-  --brand-secondary: #1a1aff;
-  --brand-tertiary: #ccccff;
+  --brand-primary: #ffc107;
+  --brand-secondary: #ffd966;
+  --brand-tertiary: #fff2cc;
   --brand-white: #ffffff;
   --brand-black: #000000;
 }

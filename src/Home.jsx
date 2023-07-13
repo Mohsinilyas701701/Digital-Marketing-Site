@@ -1,18 +1,22 @@
 import React from "react";
 import CustomNavbar from "./Components/CustomNavbar";
 import Hero from "./Components/Hero";
-import About from "./Components/About";
 import Services from "./Components/Services";
 import Form from "./Components/Form";
+import Footer from "./Components/Footer";
+import Intro from "./Components/Intro";
+import About from "./Components/About";
 
 const Home = () => {
   return (
     <div>
       <CustomNavbar />
       <Hero />
-      <About />
+      <Intro />
       <Services />
+      <About />
       <Form />
+      <Footer />
     </div>
   );
 };

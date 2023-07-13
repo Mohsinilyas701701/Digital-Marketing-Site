@@ -1,46 +1,59 @@
 import React from "react";
+import serviceImg from "../assets/front.jpg";
+import { AiTwotoneStar } from "react-icons/ai";
 import "./About.css";
 
 const About = () => {
   return (
     <>
-      <div className='about_us d-flex align-items-center'>
+      <div className='about_us my-10'>
         <div className='container'>
-          <div className='row d-flex justify-content-center text-center'>
-            {/* Content */}
-            <div className='col-10'>
-              <div className='row gap-4'>
-                <h2>Web Design Company in Dubai</h2>
+          <div className='row'>
+            <div
+              className='col-lg-5'
+              data-aos='zoom-in'
+              data-aos-duration='4000'
+              data-aos-delay='500'
+              data-aos-easing='ease-in-out'
+            >
+              <img src={serviceImg} alt='' />
+            </div>
+            <div
+              className='col-lg-7 px-5'
+              data-aos='zoom-out'
+              data-aos-duration='4000'
+              data-aos-delay='500'
+              data-aos-easing='ease-in-out'
+            >
+              <div className='row'>
+                <h2>About Us</h2>
                 <p>
-                  Element 8 is a result-driven website design company and digital agency based in
-                  Dubai. Our skilled in-house team provides website development, Magento e-commerce,
-                  mobile applications, social media & SEO services. We have extensive experience and
-                  a track record that ensures your website connects meaningfully with your
-                  customers. Our approach looks beyond immediate business needs to frame your
-                  website design & digital marketing project as an ongoing extension of your Brand’s
-                  core promise.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium esse
+                  consectetur sapiente est fugit at, vero placeat odio nulla molestias? Lorem ipsum,
+                  dolor sit amet consectetur adipisicing elit. Magni iusto corporis quis ratione
+                  quasi eius non doloribus repudiandae adipisci iste!loremh-100 Lorem ipsum dolor
+                  sit amet consectetur adipisicing elit. Officia, consequatur?
                 </p>
-              </div>
-
-              {/* Stats */}
-              <div className='row py-5 justify-content-center'>
-                <div className='col-md-3 border border-1 p-5'>
-                  <div className='row'>
-                    <h3>20+</h3>
-                    <p>in-house Team</p>
-                  </div>
+                <div className='d-flex align-items-start pt-5'>
+                  <AiTwotoneStar className='fs-2 text-warning me-4 mt-1' />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+                    consequatur.
+                  </p>
                 </div>
-                <div className='col-md-3 border border-1 p-5'>
-                  <div className='row'>
-                    <h3>20+</h3>
-                    <p>in-house Team</p>
-                  </div>
+                <div className='d-flex align-items-start pt-5'>
+                  <AiTwotoneStar className='fs-2 text-warning me-4 mt-1' />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+                    consequatur.
+                  </p>
                 </div>
-                <div className='col-md-3 border border-1 p-5'>
-                  <div className='row'>
-                    <h3>20+</h3>
-                    <p>in-house Team</p>
-                  </div>
+                <div className='d-flex align-items-start pt-5'>
+                  <AiTwotoneStar className='fs-2 text-warning me-4 mt-1' />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+                    consequatur.
+                  </p>
                 </div>
               </div>
             </div>

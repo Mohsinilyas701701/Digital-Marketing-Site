@@ -5,5 +5,10 @@
 .navbar-nav .navbar .nav-link {
   font-size: 2rem;
   margin: 0 2.4rem;
+  color: var(--brand-black);
+}
+
+.navbar-nav .navbar .nav-link:hover {
+  background-color: var(--brand-black);
   color: var(--brand-white);
 }

@@ -1,0 +1,27 @@
+.footer {
+  background-color: var(--brand-tertiary);
+}
+.footer p {
+  font-size: 1.4rem !important;
+  line-height: 1.6rem;
+  color: var(--brand-text-secondary);
+}
+.footer small {
+  font-size: 1.2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: var(--brand-black);
+}
+
+.footer .form-control {
+  padding: 10px 20px;
+  font-size: 1.6rem;
+}
+
+.footer .form-control:focus {
+  border: 1px solid var(--brand-primary) !important;
+  box-shadow: none;
+}
