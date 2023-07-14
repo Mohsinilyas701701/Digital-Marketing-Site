@@ -1,0 +1,22 @@
+.Intro {
+  margin: 10rem 0;
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  p {
+    font-size: 2rem;
+  }
+
+  .intro_stats {
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

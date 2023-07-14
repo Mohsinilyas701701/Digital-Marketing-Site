@@ -1,0 +1,20 @@
+.cta-form {
+  background-color: var(--brand-tertiary);
+  padding: 10rem 0;
+  h2 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+
+  .form-control {
+    padding: 10px 20px;
+    font-size: 1.6rem;
+
+    &:focus {
+      border: 1px solid var(--brand-primary) !important;
+      box-shadow: none;
+    }
+  }
+}

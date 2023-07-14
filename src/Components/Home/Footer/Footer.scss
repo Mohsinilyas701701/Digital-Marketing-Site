@@ -1,0 +1,30 @@
+.footer {
+  background-color: var(--brand-white);
+  p {
+    font-size: 1.4rem !important;
+    line-height: 1.6rem;
+    color: var(--brand-text-secondary);
+  }
+
+  small {
+    font-size: 1.2rem;
+  }
+
+  a {
+    font-size: 2rem;
+    margin: 0 2.4rem;
+    color: var(--brand-black);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .form-control {
+    padding: 10px 20px;
+    font-size: 1.6rem;
+
+    &:focus {
+      border: 1px solid var(--brand-primary) !important;
+      box-shadow: none;
+    }
+  }
+}
