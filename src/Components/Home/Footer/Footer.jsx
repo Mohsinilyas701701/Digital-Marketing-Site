@@ -1,62 +1,78 @@
 import React from "react";
 import "./Footer.scss";
-import footerLogo from "../../../assets/logo.png";
 
 const Footer = () => {
   return (
     <>
-      <footer class='footer pt-5 pb-3'>
+      <footer class='site-footer'>
         <div class='container'>
-          <div class='row align-items-end py-5'>
-            <div class='col-md-3 align-self-center text-center text-md-start'>
-              <img src={footerLogo} alt='' />
+          <div class='row justify-content-between'>
+            <div class='col-sm-12 col-md-6'>
+              <h6>About</h6>
+              <p class='text-justify'>
+                Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming
+                programmers with the code. Scanfcode focuses on providing the most efficient code or
+                snippets as the code wants to be simple. We will help programmers build up concepts
+                in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap,
+                JavaScript, PHP, Android, SQL and Algorithm.
+              </p>
             </div>
-            <div class='col-md-5'>
-              <div class='row py-3 py-md-5 g-4 text-center text-md-start'>
-                <div class='col-md-4'>
-                  <a href=''>
-                    <p>About</p>
-                  </a>
-                </div>
-                <div class='col-md-4'>
-                  <a href=''>
-                    <p>What We DO</p>
-                  </a>
-                </div>
-                <div class='col-md-4'>
-                  <a href=''>
-                    <p>Jobs</p>
-                  </a>
-                </div>
-              </div>
-              <div class='row g-4 text-center text-md-start'>
-                <div class='col-md-4'>
-                  <a href=''>
-                    <p>Projects</p>
-                  </a>
-                </div>
-                <div class='col-md-4'>
-                  <a href=''>
-                    <p>Press</p>
-                  </a>
-                </div>
-                <div class='col-md-4'>
-                  <a href=''>
-                    <p>Download</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class='col-md-4 pt-3 pt-md-0 text-center text-md-start'>
-              <div class='row gap-4 justify-content-center justify-content-md-start'>
-                <p class='fw-bold'>Join our community 🔥</p>
-                <input type='text' class='form-control' placeholder='Enter your email' />
-              </div>
+            <div class='col-xs-6 col-md-3'>
+              <h6>Quick Links</h6>
+              <ul class='footer-links'>
+                <li>
+                  <a href='#'>Services</a>
+                </li>
+                <li>
+                  <a href='#'>About Us</a>
+                </li>
+                <li>
+                  <a href='#'>Gallery</a>
+                </li>
+                <li>
+                  <a href='#'>Contact Us</a>
+                </li>
+                <li>
+                  <a href='#'>Privacy Policy</a>
+                </li>
+              </ul>
             </div>
           </div>
           <hr />
-          <div class='row text-center text-md-start'>
-            <small>Copyright © 2021 UI8 LLC. All rights reserved</small>
+        </div>
+        <div class='container'>
+          <div class='row'>
+            <div class='col-md-8 col-sm-6 col-xs-12'>
+              <p class='copyright-text'>
+                Copyright &copy; 2017 All Rights Reserved by
+                <a href='#'>Scanfcode</a>.
+              </p>
+            </div>
+
+            <div class='col-md-4 col-sm-6 col-xs-12'>
+              <ul class='social-icons'>
+                <li>
+                  <a class='facebook' href='#'>
+                    <i class='fa fa-facebook'></i>
+                  </a>
+                </li>
+                <li>
+                  <a class='twitter' href='#'>
+                    <i class='fa fa-twitter'></i>
+                  </a>
+                </li>
+                <li>
+                  <a class='dribbble' href='#'>
+                    <i class='fa fa-dribbble'></i>
+                  </a>
+                </li>
+                <li>
+                  <a class='linkedin' href='#'>
+                    <i class='fa fa-linkedin'></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </footer>
