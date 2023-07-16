@@ -26,8 +26,14 @@ const Form = () => {
     <>
       <div className='cta-form justify-content-center'>
         <div className='container'>
-          <div className='row text-center'>
-            <h2>This is our services</h2>
+          <div
+            className='row text-center'
+            data-aos='fade-in'
+            data-aos-delay='500'
+            data-aos-easing='ease-in-out'
+            data-aos-duration='500'
+          >
+            <h2>Contact form</h2>
             <p className='w-75 m-auto'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo beatae ut quis
               reprehenderit sint. Nostrum itaque earum dolores tenetur quasi, quae sint dolor,
@@ -37,7 +43,14 @@ const Form = () => {
 
           {/* Form */}
 
-          <form onSubmit={handleSubmit} className='row py-5 g-5 justify-content-center'>
+          <form
+            onSubmit={handleSubmit}
+            className='row py-5 g-5 justify-content-center'
+            data-aos='fade-in'
+            data-aos-delay='800'
+            data-aos-easing='ease-in-out'
+            data-aos-duration='800'
+          >
             <div className='col-md-3'>
               <input
                 type='text'

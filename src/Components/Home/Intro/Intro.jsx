@@ -4,7 +4,13 @@ import "./Intro.scss";
 const Intro = () => {
   return (
     <>
-      <div className='Intro d-flex align-items-center'>
+      <div
+        className='Intro d-flex align-items-center'
+        data-aos='slide-right'
+        data-aos-delay='800'
+        data-aos-easing='ease-in-out'
+        data-aos-duration='1000'
+      >
         <div className='container'>
           <div className='row d-flex justify-content-center text-center'>
             {/* Content */}

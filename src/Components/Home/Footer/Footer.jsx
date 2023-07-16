@@ -5,7 +5,7 @@ import footerLogo from "../../../assets/logo.png";
 const Footer = () => {
   return (
     <>
-      <footer class='footer pt-5 pb-3 border-top'>
+      <footer class='footer pt-5 pb-3'>
         <div class='container'>
           <div class='row align-items-end py-5'>
             <div class='col-md-3 align-self-center text-center text-md-start'>

@@ -8,7 +8,13 @@ const About = () => {
     <>
       <div className='about_us'>
         <div className='container'>
-          <div className='row align-items-center justify-content-center px-2'>
+          <div
+            className='row align-items-center justify-content-center px-2'
+            data-aos='fade-in'
+            data-aos-delay='1000'
+            data-aos-easing='ease-in-out'
+            data-aos-duration='1500'
+          >
             <div className='col-lg-7 px-5'>
               <div className='row about_us_wrapper'>
                 <h2>
