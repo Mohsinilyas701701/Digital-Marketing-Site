@@ -9,19 +9,18 @@ const Footer = () => {
         <div class='container'>
           <div class='row justify-content-between'>
             <div class='col-sm-12 col-md-6'>
-              <h6>About</h6>
+              <h6>Company Intro</h6>
               <p class='text-justify'>
-                Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming
-                programmers with the code. Scanfcode focuses on providing the most efficient code or
-                snippets as the code wants to be simple. We will help programmers build up concepts
-                in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap,
-                JavaScript, PHP, Android, SQL and Algorithm.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni impedit
+                harum neque temporibus! Non saepe, nam voluptatum magni tenetur mollitia corporis
+                repellat cumque reiciendis necessitatibus facere ducimus suscipit quasi. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Qui error temporibus quis eius laborum
+                reprehenderit non nobis, harum ducimus? Placeat.
               </p>
             </div>
             <div class='col-xs-6 col-md-3'>
               <h6>Quick Links</h6>
               <Nav className='d-flex flex-column'>
-                <Nav.Link href='#home'>Home</Nav.Link>
                 <Nav.Link href='#services'>Services</Nav.Link>
                 <Nav.Link href='#aboutus'>About Us</Nav.Link>
                 <Nav.Link href='#gallery'>Gallery</Nav.Link>
