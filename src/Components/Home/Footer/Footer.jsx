@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "react-bootstrap/Nav";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -19,23 +20,13 @@ const Footer = () => {
             </div>
             <div class='col-xs-6 col-md-3'>
               <h6>Quick Links</h6>
-              <ul class='footer-links'>
-                <li>
-                  <a href='#'>Services</a>
-                </li>
-                <li>
-                  <a href='#'>About Us</a>
-                </li>
-                <li>
-                  <a href='#'>Gallery</a>
-                </li>
-                <li>
-                  <a href='#'>Contact Us</a>
-                </li>
-                <li>
-                  <a href='#'>Privacy Policy</a>
-                </li>
-              </ul>
+              <Nav className='d-flex flex-column'>
+                <Nav.Link href='#home'>Home</Nav.Link>
+                <Nav.Link href='#services'>Services</Nav.Link>
+                <Nav.Link href='#aboutus'>About Us</Nav.Link>
+                <Nav.Link href='#gallery'>Gallery</Nav.Link>
+                <Nav.Link href='#form'>Contact Us</Nav.Link>
+              </Nav>
             </div>
           </div>
           <hr />
@@ -47,31 +38,6 @@ const Footer = () => {
                 Copyright &copy; 2017 All Rights Reserved by
                 <a href='#'>Scanfcode</a>.
               </p>
-            </div>
-
-            <div class='col-md-4 col-sm-6 col-xs-12'>
-              <ul class='social-icons'>
-                <li>
-                  <a class='facebook' href='#'>
-                    <i class='fa fa-facebook'></i>
-                  </a>
-                </li>
-                <li>
-                  <a class='twitter' href='#'>
-                    <i class='fa fa-twitter'></i>
-                  </a>
-                </li>
-                <li>
-                  <a class='dribbble' href='#'>
-                    <i class='fa fa-dribbble'></i>
-                  </a>
-                </li>
-                <li>
-                  <a class='linkedin' href='#'>
-                    <i class='fa fa-linkedin'></i>
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
