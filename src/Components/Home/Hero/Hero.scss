@@ -45,7 +45,7 @@
 
   .overlay_content {
     margin-left: 10rem;
-    max-width: 30%;
+    max-width: 60%;
     text-align: start;
 
     h1 {
@@ -56,6 +56,10 @@
     span {
       font-weight: bolder;
       font-size: 8rem;
+    }
+
+    p {
+      font-size: 2rem;
     }
   }
 }
@@ -75,4 +79,50 @@ img {
   height: 87vh;
 
   /* Center slide text vertically */
+}
+
+@media screen and (max-width: 767px) {
+  .overlay {
+    .overlay_content {
+      margin-left: 2rem;
+      max-width: 100%;
+
+      h1 {
+        font-size: 4rem;
+        font-weight: 400;
+      }
+
+      span {
+        font-weight: bolder;
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .overlay {
+    .overlay_content {
+      margin-left: 2rem;
+      max-width: 50%;
+
+      h1 {
+        font-size: 6rem;
+        font-weight: 400;
+      }
+
+      span {
+        font-weight: bolder;
+        font-size: 6rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
 }

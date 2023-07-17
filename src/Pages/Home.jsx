@@ -6,6 +6,7 @@ import About from "../Components/Home/About/About";
 import Form from "../Components/Home/Form/Form";
 import Footer from "../Components/Home/Footer/Footer";
 import Services from "../Components/Home/Services/Services";
+import Info from "../Components/Home/Info/Info";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Intro />
       <About />
       <Services />
+      <Info />
       <Form />
       <Footer />
     </div>

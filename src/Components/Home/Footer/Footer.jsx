@@ -11,11 +11,11 @@ const Footer = () => {
             <div class='col-sm-12 col-md-6'>
               <h6>Company Intro</h6>
               <p class='text-justify'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni impedit
-                harum neque temporibus! Non saepe, nam voluptatum magni tenetur mollitia corporis
-                repellat cumque reiciendis necessitatibus facere ducimus suscipit quasi. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Qui error temporibus quis eius laborum
-                reprehenderit non nobis, harum ducimus? Placeat.
+                Our website Design company in Dubai has a profound sense of teamwork that they use
+                to satisfy our customer’s needs. Comparing other web design company Dubai, in our
+                company we share truthfulness, modesty, and laughter. The staff is made of a
+                diversified background of talents and knowledge and uses this knowledge to keep the
+                creative juices flowing making this a strong foundation.
               </p>
             </div>
             <div class='col-xs-6 col-md-3'>

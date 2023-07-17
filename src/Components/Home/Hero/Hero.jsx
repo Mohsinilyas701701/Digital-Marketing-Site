@@ -11,17 +11,17 @@ import "./Hero.scss";
 const Hero = () => {
   return (
     <>
-      <Swiper className='mySwiper' modules={[Autoplay]} speed={300} autoplay={true}>
+      {/*  modules={[Autoplay]} speed={300} autoplay={false} */}
+      <Swiper className='mySwiper'>
         <SwiperSlide>
           <div className='slide1'>
             <div className='overlay'>
               <div className='overlay_content'>
                 <h1>
-                  Let's Talk <br /> <span className='display-1 fw-bolder'>Ideas</span>
+                  Let's Talk <br /> <strong>Ideas</strong>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam praesentium iste
-                  totam labore libero ipsum velit odio quaerat nemo adipisci?
+                  Dubai's Leading <strong>Web Design Agency</strong> Just Got Better
                 </p>
               </div>
             </div>
@@ -31,13 +31,11 @@ const Hero = () => {
           <div className='slide2'>
             <div className='overlay'>
               <div className='overlay_content'>
-                <h1 className=''>
-                  Let's Talk <br /> <span className='display-1 fw-bolder'>Ideas</span>
-                </h1>
+                <h1>Rising Over the Top</h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam praesentium iste
-                  totam labore libero ipsum velit odio quaerat nemo adipisci?
+                  Be the best in the <strong> Digital World</strong>{" "}
                 </p>
+                <p></p>
               </div>
             </div>
           </div>
@@ -46,13 +44,10 @@ const Hero = () => {
           <div className='slide3'>
             <div className='overlay'>
               <div className='overlay_content'>
+                <p>Hisense</p>
                 <h1 className=''>
-                  Let's Talk <br /> <span className='display-1 fw-bolder'>Ideas</span>
+                  Digitally Driving <br /> <strong>Global Growth</strong>
                 </h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam praesentium iste
-                  totam labore libero ipsum velit odio quaerat nemo adipisci?
-                </p>
               </div>
             </div>
           </div>
@@ -62,12 +57,9 @@ const Hero = () => {
             <div className='overlay'>
               <div className='overlay_content'>
                 <h1 className=''>
-                  Let's Talk <br /> <span className='display-1 fw-bolder'>Ideas</span>
+                  Best Web Design Agency In <strong>Dubai</strong>
                 </h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam praesentium iste
-                  totam labore libero ipsum velit odio quaerat nemo adipisci?
-                </p>
+                <p>Hire us to create exceptional web designs</p>
               </div>
             </div>
           </div>

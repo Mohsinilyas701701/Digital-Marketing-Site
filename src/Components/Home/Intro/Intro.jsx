@@ -1,4 +1,8 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 import "./Intro.scss";
 
 const Intro = () => {
@@ -11,12 +15,14 @@ const Intro = () => {
         data-aos-easing='ease-in-out'
         data-aos-duration='1000'
       >
-        <div className='container'>
-          <div className='row d-flex justify-content-center text-center'>
+        <Container>
+          <Row className='d-flex justify-content-center text-center'>
             {/* Content */}
-            <div className='col-10'>
-              <div className='row gap-4'>
-                <h2>Web Design Company in Dubai</h2>
+            <Col xs={10}>
+              <Row className='gap-4'>
+                <h2>
+                  <strong>Web Design Company in Dubai</strong>
+                </h2>
                 <p>
                   Element 8 is a result-driven website design company and digital agency based in
                   Dubai. Our skilled in-house team provides website development, Magento e-commerce,
@@ -26,32 +32,32 @@ const Intro = () => {
                   website design & digital marketing project as an ongoing extension of your Brand’s
                   core promise.
                 </p>
-              </div>
+              </Row>
 
               {/* Stats */}
-              <div className='row py-5 g-5 justify-content-center'>
-                <div className='col-md-3 border border-1 p-5 intro_stats'>
+              <Row className='py-5 g-5 justify-content-center'>
+                <Col md={3} className='border border-1 p-5 intro_stats'>
                   <div className='row'>
-                    <h3>20+</h3>
+                    <h3>30+</h3>
                     <p>in-house Team</p>
                   </div>
-                </div>
-                <div className='col-md-3 border border-1 p-5 intro_stats'>
+                </Col>
+                <Col md={3} className='border border-1 p-5 intro_stats'>
                   <div className='row'>
-                    <h3>20+</h3>
-                    <p>in-house Team</p>
+                    <h3>13+</h3>
+                    <p>Years of Experience</p>
                   </div>
-                </div>
-                <div className='col-md-3 border border-1 p-5 intro_stats'>
+                </Col>
+                <Col md={3} className=' border border-1 p-5 intro_stats'>
                   <div className='row'>
-                    <h3>20+</h3>
-                    <p>in-house Team</p>
+                    <h3>700+</h3>
+                    <p>Digital Projects</p>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </>
   );

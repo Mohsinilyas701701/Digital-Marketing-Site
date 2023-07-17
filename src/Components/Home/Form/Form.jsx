@@ -1,4 +1,7 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import { useFormik } from "formik";
 import { signUpSchema } from "../../../schemas/index";
 import "./Form.scss";
@@ -25,9 +28,9 @@ const Form = () => {
   return (
     <>
       <div className='cta-form justify-content-center'>
-        <div className='container'>
-          <div
-            className='row text-center'
+        <Container>
+          <Row
+            className='text-center'
             data-aos='fade-in'
             data-aos-delay='500'
             data-aos-easing='ease-in-out'
@@ -39,77 +42,78 @@ const Form = () => {
               reprehenderit sint. Nostrum itaque earum dolores tenetur quasi, quae sint dolor,
               cupiditate error eveniet illum, adipisci explicabo eum!
             </p>
-          </div>
-
+          </Row>
           {/* Form */}
-
           <form
             onSubmit={handleSubmit}
-            className='row py-5 g-5 justify-content-center'
             data-aos='fade-in'
             data-aos-delay='800'
             data-aos-easing='ease-in-out'
             data-aos-duration='800'
           >
-            <div className='col-md-3'>
-              <input
-                type='text'
-                className='form-control'
-                placeholder='First Name'
-                name='first_name'
-                value={values.name}
-                onChange={handleChange}
-                onBlur={handleBlur}
-              />
-              {errors.first_name && touched.first_name ? (
-                <p className='text-danger'>{errors.first_name}</p>
-              ) : null}
-            </div>
-            <div className='col-md-3'>
-              <input
-                type='text'
-                className='form-control'
-                placeholder='Last Name'
-                name='last_name'
-                value={values.last_name}
-                onChange={handleChange}
-                onBlur={handleBlur}
-              />
-              {errors.last_name && touched.last_name ? (
-                <p className='text-danger'>{errors.last_name}</p>
-              ) : null}
-            </div>
-            <div className='col-md-3'>
-              <input
-                type='email'
-                className='form-control'
-                placeholder='Email'
-                name='email'
-                value={values.email}
-                onChange={handleChange}
-                onBlur={handleBlur}
-              />
-              {errors.email && touched.email ? <p className='text-danger'>{errors.email}</p> : null}
-            </div>
-            <div className='col-md-3'>
-              <input
-                type='number'
-                name='number'
-                className='form-control'
-                placeholder='Phone No'
-                value={values.number}
-                onChange={handleChange}
-                onBlur={handleBlur}
-              />
-              {errors.number && touched.number ? (
-                <p className='text-danger'>{errors.number}</p>
-              ) : null}
-            </div>
-            <div className='col-md-1'>
-              <CustomButton buttonTitle='Submit' type='submit' />
-            </div>
+            <Row className='py-5 g-5 justify-content-center text-center'>
+              <Col md={3}>
+                <input
+                  type='text'
+                  className='form-control'
+                  placeholder='First Name'
+                  name='first_name'
+                  value={values.name}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                />
+                {errors.first_name && touched.first_name ? (
+                  <p className='text-danger'>{errors.first_name}</p>
+                ) : null}
+              </Col>
+              <Col md={3}>
+                <input
+                  type='text'
+                  className='form-control'
+                  placeholder='Last Name'
+                  name='last_name'
+                  value={values.last_name}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                />
+                {errors.last_name && touched.last_name ? (
+                  <p className='text-danger'>{errors.last_name}</p>
+                ) : null}
+              </Col>
+              <Col md={3}>
+                <input
+                  type='email'
+                  className='form-control'
+                  placeholder='Email'
+                  name='email'
+                  value={values.email}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                />
+                {errors.email && touched.email ? (
+                  <p className='text-danger'>{errors.email}</p>
+                ) : null}
+              </Col>
+              <Col md={3}>
+                <input
+                  type='number'
+                  name='number'
+                  className='form-control'
+                  placeholder='Phone No'
+                  value={values.number}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                />
+                {errors.number && touched.number ? (
+                  <p className='text-danger'>{errors.number}</p>
+                ) : null}
+              </Col>
+              <Col md={1}>
+                <CustomButton buttonTitle='Submit' type='submit' />
+              </Col>
+            </Row>
           </form>
-        </div>
+        </Container>
       </div>
     </>
   );

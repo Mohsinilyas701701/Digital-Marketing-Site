@@ -22,3 +22,14 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .Intro {
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}

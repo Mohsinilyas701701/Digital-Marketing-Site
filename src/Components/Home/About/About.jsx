@@ -1,5 +1,7 @@
 import React from "react";
-import { AiTwotoneStar } from "react-icons/ai";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import "./About.scss";
 import aboutImg from "../../../assets/hero.png";
 
@@ -7,55 +9,38 @@ const About = () => {
   return (
     <>
       <div className='about_us'>
-        <div className='container'>
-          <div
-            className='row align-items-center justify-content-center px-2'
+        <Container>
+          <Row
+            className='align-items-center justify-content-center px-2'
             data-aos='fade-in'
             data-aos-delay='1000'
             data-aos-easing='ease-in-out'
             data-aos-duration='1500'
           >
-            <div className='col-lg-7 px-5'>
-              <div className='row about_us_wrapper'>
+            <Col lg={7} className='px-5'>
+              <Row className='about_us_wrapper'>
                 <h2>
-                  We Deliver <span className='fw-bolder'>Results</span>
+                  We Deliver <strong>Results</strong>
                 </h2>
-                <p className='fw-bold ps-4 pt-3'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium esse
-                  consectetur sapiente est fugit at, vero placeat odio nulla molestias? Lorem ipsum,
-                  dolor sit amet consectetur adipisicing elit. Magni iusto corporis quis ratione
-                  quasi eius non doloribus repudiandae adipisci iste!loremh-100 Lorem ipsum dolor
-                  sit amet consectetur adipisicing elit. Officia, consequatur?
+                <span className='sub-heading'>
+                  <strong>
+                    With good taste and great technology we Craft Award Winning Websites.
+                  </strong>
+                </span>
+                <p>
+                  These are what determine whether or not your customer has a reaction to what
+                  you’re offering. Element 8 as digital agency creatively plans out a surprising
+                  brand design that makes customers notice your company and inspires them to take
+                  action.
                 </p>
-                <div className='d-flex align-items-start pt-5'>
-                  <AiTwotoneStar className='fs-2 text-warning me-4 mt-1' />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
-                    consequatur.
-                  </p>
-                </div>
-                <div className='d-flex align-items-start pt-5'>
-                  <AiTwotoneStar className='fs-2 text-warning me-4 mt-1' />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
-                    consequatur.
-                  </p>
-                </div>
-                <div className='d-flex align-items-start pt-5'>
-                  <AiTwotoneStar className='fs-2 text-warning me-4 mt-1' />
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
-                    consequatur.
-                  </p>
-                </div>
-              </div>
-            </div>
+              </Row>
+            </Col>
 
-            <div className='col-lg-5'>
+            <Col lg={5}>
               <img src={aboutImg} alt='' />
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </>
   );
